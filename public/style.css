@@ -1,0 +1,70 @@
+/* This file is loaded by index.html and styles the page */
+/* Customize to your liking! */
+
+/* Define variables*/
+:root {
+  --primary-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana;
+  margin: 2em 1em;
+  line-height: 1.5em;
+  font-size: 16px;
+  background-image: url('https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-style: italic;
+  color: var(--primary-color);
+  max-width: calc(100% - 5rem);
+  line-height: 1.1;
+}
+
+form {
+  background-color: #191414;
+  display: grid;
+  grid-gap: 1em;
+  padding: 1em;
+  max-width: 40ch;
+  border-radius: 30px;
+  opacity: 0.7;
+}
+
+input {
+  font-family: Verdana;
+  border: 1px solid silver;
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+form input[type="submit"] {
+  font-family: Verdana;
+  color: #fff;
+  background-color: #1DB954;
+  border: 2px solid #8FBC8F;
+  border-radius: 1em;
+  cursor: pointer;
+  line-height: 1.4em;
+  padding: 0.5em 1em;
+  
+}
+
+form input[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+footer {
+  margin-top: 3em;
+  padding-top: 1.5em;
+  color: #fff;
+}
